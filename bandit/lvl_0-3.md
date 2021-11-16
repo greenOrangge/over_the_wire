@@ -53,5 +53,5 @@ password : _bandit0_
 - to go into that directory we can use the `cd` (Change Directory) command, `cd inhere`
 - if we use the `ls` command we won't be able to see any files or directories, as the file is hidden.
 - to view the hidden files we need to use the command `ls -a`, we can see that the file is called `.hidden`
-	![lvl3](lvl_3.png)
+	![lvl3](images/lvl_3.png)
 - to view this file we can use `cat .hidden`
