@@ -1,4 +1,4 @@
-# Natas Level 14 → Level 15
+# Natas Level 15 → Level 16
 
 > URL : http://natas16.natas.labs.overthewire.org/
 
