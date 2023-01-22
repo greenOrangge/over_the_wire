@@ -22,7 +22,7 @@ if($key != "") {
 - what this does is check if we have given input to the element `needle`
 - then it executes `grep -i $key dictionary.txt`,
 	- read more about grep by typing this `man grep` in the terminal, it basically searches for a word in a file
-- important thing here is, it is done by a function called `passthru`, ([read more](https://www.php.net/manual/en/function.passthru.php)){target="_blank"} , here, this just executes a command without checking.
+- important thing here is, it is done by a function called `passthru`, ([read more](https://www.php.net/manual/en/function.passthru.php)) , here, this just executes a command without checking.
 - let's use this to our advantage and try searching `; cat /etc/natas_webpass/natas10`
 	- `;` semicolon is used to denote the end of the previous command ([read more](https://stackoverflow.com/a/20233998))
 	- and `cat` is used to output a file, here the file containing the password
